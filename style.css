@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #27282d;
+}
+
+.form {
+    text-align: center;
+    padding: 20px;
+}
+
+.form img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.form input[type=text],
+.form input[type=email] {
+    display: block;
+
+    padding-left: 10px;
+
+    width: 50%;
+    height: 30px;
+
+    border: 1px solid #ccc;
+    border-radius: 99px;
+
+    margin: 10px auto;
+}
+
+.form textarea {
+    width: 50%;
+
+    display: inline-block;
+
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.form .botao {
+    display: block;
+
+    margin: 10px auto;
+
+    width: 50%;
+    height: 30px;
+
+    color: antiquewhite;
+    background-color: #2d076b;
+
+    border-radius: 99px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.form .botao:hover {
+    background-color: #0c4e4e;
+    color: black;
+}
